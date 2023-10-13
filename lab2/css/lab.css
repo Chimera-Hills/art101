@@ -1,9 +1,39 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+body {
+  background-color: #3285c9;
+}
+
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 4px #fff;
+    background-color: #ffd1d2;
   }
+
+.random-gifs {
+    width: 600px;
+    height: auto;
+    border: solid 4px #ffb6ba;
+}
+
+h1 {
+    color: #fff;
+    font-size: 700%;
+    font-family: 'Gill Sans', serif;
+    -webkit-text-stroke: 2px #ffb6ba;
+    text-shadow: 0px 4px 4px #51857e;
+}
+
+p {
+    font-family: 'Gill Sans', serif;
+    text-indent: 20px;
+    margin-left: 10px;
+}
+
+#content {
+    border: dashed 4px #9ef4ff;
+    background-color: #54d2e9;
+}
