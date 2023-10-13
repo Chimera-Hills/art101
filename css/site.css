@@ -23,7 +23,7 @@ h1 {
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #888;
+  border: solid 2px #2f7299;
   background-color: #84B59F;
 }
 
@@ -31,11 +31,18 @@ h1 {
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
+  border: solid 1px #50a0a0;
   background-color: #A3C9A8;
 }
 
-.dog-photo {
-  width: 500px;
+.random-gifs {
+  width: 600px;
   height: auto;
+  border: solid 1px #50a0a0;
+}
+
+.dog-photo {
+  width: 600px;
+  height: auto;
+  border: solid 1px #50a0a0;
 }
