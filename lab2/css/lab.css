@@ -13,7 +13,7 @@ body {
     background-color: #ffd1d2;
   }
 
-.random-gifs {
+div.minor-section img.random-gifs{
     width: 600px;
     height: auto;
     border: solid 4px #ffb6ba;

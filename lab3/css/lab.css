@@ -4,6 +4,17 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #50a0a0;
+    background-color: #A3C9A8;
   }
+
+img {
+    width: 600px;
+    height: auto;
+    border: solid 1px #50a0a0;
+}
+
+#file-directory {
+    width: 250px;
+    height: auto;
+}
