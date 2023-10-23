@@ -1,5 +1,6 @@
 // index.js - Bulls and Cows
-// Author: Kevin Hong
+// A digital implementation of the game.
+// Author(s): Harry Chou & Kevin Hong
 // Date: Oct. 20, 2023
 
 // Constants

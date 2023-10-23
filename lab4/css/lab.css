@@ -8,6 +8,12 @@
     background-color: #A3C9A8;
   }
 
+.minor-section p {
+    font-family: 'Gill Sans', serif;
+    text-indent: 20px;
+    margin-left: 10px;
+}
+
 #outline {
   line-height: 1.5;
 }
