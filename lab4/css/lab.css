@@ -4,6 +4,19 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #50a0a0;
+    background-color: #A3C9A8;
   }
+
+#outline {
+  line-height: 1.5;
+}
+
+#pseudocode pre {
+  background-color: #387265;
+  color: #faffd0;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  display: inline-block;
+  border: solid 2px #50a0a0;
+}

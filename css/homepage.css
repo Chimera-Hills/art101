@@ -4,3 +4,20 @@
   margin: 10px;
   max-width: 500px;
 }
+
+#about-me p {
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+#my-portrait {
+  width: 250px;
+  height: auto;
+  border: solid 1px #50a0a0;
+}
+
+.dog-photo {
+  width: 600px;
+  height: auto;
+  border: solid 1px #50a0a0;
+}
