@@ -1,8 +1,23 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Making a car in JS
+// Author: Kevin Hong
+// Date: Oct. 24, 2023
 
-// Constants
+// Define variables
+var make = "Cadillac";
+var model = "CT5-V Blackwing";
+var color ="Dark Emerald Frost";
+var year = 2022;
+var ownIt = false;
+
+// Calculations
+var age = 2023 - year;
+
+// Output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + "<br>");
 
 // Functions
 
