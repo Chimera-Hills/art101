@@ -8,21 +8,12 @@
     background-color: #A3C9A8;
 }
 
- .minor-section p {
+.minor-section p {
     text-indent: 20px;
     margin-left: 10px;
     line-height: 1.5;
 }
 
-#output {
-  padding: 10px;
-  margin-bottom: 10px;
-  line-height: 1.5;
-}
-
-#cadillac {
-  width: 500px;
-  height: auto;
-  border: solid 1px #078686;
-  box-shadow: 4px 4px 10px rgba(37, 105, 126, 0.699);
+.output {
+    line-height: 1.5;
 }
