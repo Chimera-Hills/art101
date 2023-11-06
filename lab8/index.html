@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 8 - Anon Functions & Callbacks</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 8 - Anon Functions & Callbacks</h1>
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p>The challenge for this assignment is to use callbacks and anonymous functions inside of callbacks.</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p>For the most part, everything was easy because I had already went through them in the previous lab. I already knew how to use document.getElementById, 
+                        but didn't realize that you could just use any id instead of one that is in span. However, I decided to go for a more uniform approach because I ended 
+                        up not liking how the formatting looked despite it working. To make it harder on myself, I experimented with a new command called "if", which in this 
+                        case would ascertain whether or not the result of a function's operation is true or false. I troubleshooted this beforehand with ChatGPT and found that 
+                        I could simply just do if (result) instead of if (result = true) or if (result === true). 
+                    </p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+                    <p>Down below are the results of my experiment.</p>
+                        <h3>Script Output</h3>
+					        <div id="output">
+                                <p>Here is an array of numbers: <span id="numberArray"></span></p>
+                                <p>Here are those numbers split in half: <span id="numberArrayResults"></span></p>
+                                <p>Here is an array of random anmes: <span id="namesArray"></span></p>
+                                <p>I'm checking if these names are even or odd... Here are the results of my analysis: <span id="namesArrayResults"></span></p>
+                                <p>You can check if the names are even or odd by inspecting the page and clicking console.</p>
+                            </div>
+			</div>
+		</section>
+		<nav id="links">
+			<h2>Labs</h2>
+            <ul>
+				<li>
+					<a href="../index.html" target="_blank">
+					Homepage
+					</a>
+				</li>
+				<li>
+					<a href="../lab2/index.html" target="_blank">
+					Lab 2: HTML & CSS Starter
+					</a>
+				</li>
+				<li>
+					<a href="../lab3/index.html" target="_blank">
+					Lab 3: File Structure & File Transfer
+					</a>
+				</li>
+				<li>
+					<a href="../lab4/index.html" target="_blank">
+					Lab 4: Pseudocoding & Problem-solving
+					</a>
+				</li>
+				<li>
+					<a href="../lab5/index.html" target="_blank">
+					Lab 5: Data Types & Variables
+					</a>
+				</li>
+                <li>
+                    <a href="../lab6/index.html" target="_blank">
+                    Lab 6: Arrays & Objects
+                    </a>
+                </li>
+                <li>
+					<a href="../lab7/index.html" target="_blank">
+					Lab 7: Functions
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</main>
+</body>
+</html>
