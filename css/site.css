@@ -5,6 +5,7 @@
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
   background-color: #50808E;
+  line-height: 1.5;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
@@ -39,4 +40,19 @@ h1 {
   width: 600px;
   height: auto;
   border: solid 1px #50a0a0;
+}
+
+#links ul {
+  column-width: 600px;
+  list-style: disc;
+}
+
+a {
+  text-decoration: none;
+  color: #1b7474;
+  font-weight: bold;
+}
+
+#links a {
+  font-size: 90%;
 }
