@@ -14,3 +14,62 @@
     margin-left: 10px;
     line-height: 1.5;
 }
+
+#results {
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 125%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2.5px;
+    margin-bottom: 10px;
+    color: #1d88c2;
+    -webkit-text-stroke: 1px #164488;
+    border: solid 1px #4A6FA5;
+    border-radius: 5px;
+    background-color: #DBE9EE;
+    box-shadow: 2.5px 2.5px 5px #62a08d;
+}
+
+#output {
+    background-color: #DBE9EE;
+    border: solid 1px #4A6FA5;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 2.5px 2.5px 10px #62a08d;
+    margin: 10px auto;
+    min-height: 100px;
+}
+
+.text p {
+    display: inline-block;
+    text-indent: initial;
+    max-width: 60%;
+    margin: 3px;
+    padding: 5px 10px;
+    background-color: darkgrey;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px #6294a0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text:nth-child(odd) {
+    text-align: left;
+}
+
+.text:nth-child(even) {
+    text-align: right;
+}
+
+.text:nth-child(odd) p {
+    background-color: #c9ddcc;
+    color: #164488;
+}
+
+.text:nth-child(even) p {
+    background-color: #54719c;
+    color: #c9ddcc;
+}
