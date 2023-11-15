@@ -31,3 +31,13 @@ $("#make-convo").click(function(){
     // Append a new div with the class, text, to div with id, output
     $("#output").append("<div class='text'><p>" + newText + "</p></div>");
 });
+
+// Change the buttons' appearances when the mouse enters it
+$("button").mouseenter(function () {
+    $(this).addClass("special2");
+});
+
+// Reverts it back once mouse exits
+$("button").mouseleave(function () {
+    $(this).removeClass("special2");
+});

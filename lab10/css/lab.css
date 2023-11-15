@@ -34,6 +34,13 @@ button {
     box-shadow: 2.5px 2.5px 5px #62a08d;
 }
 
+.special2 {
+    color: #E6E8E6;
+    -webkit-text-stroke: 1px #CED0CE;
+    border: solid 1px #3F403F;
+    background-color: #9FB8AD;
+}
+
 #output {
     background-color: #DBE9EE;
     border: solid 1px #4A6FA5;
