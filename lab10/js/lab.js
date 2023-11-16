@@ -32,7 +32,7 @@ $("#make-convo").click(function(){
     $("#output").append("<div class='text'><p>" + newText + "</p></div>");
 });
 
-// Change the buttons' appearances when the mouse enters it
+// Change the button's appearance when the mouse enters it
 $("button").mouseenter(function () {
     $(this).addClass("special2");
 });
@@ -40,4 +40,14 @@ $("button").mouseenter(function () {
 // Reverts it back once mouse exits
 $("button").mouseleave(function () {
     $(this).removeClass("special2");
+});
+
+// Change the button's appearance when the mouse button is clicked downed on it
+$("button").mousedown(function () {
+    $(this).addClass("special3");
+});
+
+// Reverts it back once mouse button is released
+$("button").mouseup(function () {
+    $(this).removeClass("special3");
 });
