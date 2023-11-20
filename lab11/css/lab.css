@@ -14,3 +14,45 @@
     margin-left: 10px;
     line-height: 1.5;
 }
+
+input {
+    background-color: #DBE9EE;
+    border: solid 1px #4A6FA5;
+    border-radius: 5px;
+    color: #1d88c2;
+    box-shadow: 2.5px 2.5px 5px #62a08d;
+    font-size: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 4px;
+}
+
+input::placeholder {
+    color: #1d88c2;
+}
+
+button {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: #1d88c2;
+    -webkit-text-stroke: 1px #164488;
+    border: solid 1px #4A6FA5;
+    border-radius: 5px;
+    background-color: #DBE9EE;
+    box-shadow: 2.5px 2.5px 5px #62a08d;
+}
+
+.special2 {
+    color: #E6E8E6;
+    -webkit-text-stroke: 1px #CED0CE;
+    border: solid 1px #3F403F;
+    background-color: #9FB8AD;
+}
+
+.special3 {
+    box-shadow: inset 2.5px 2.5px 10px #7c968b;
+    text-shadow: 2.5px 2.5px 5px #7c968b;
+}

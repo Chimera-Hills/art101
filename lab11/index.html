@@ -26,20 +26,39 @@
 			<h1>Lab 11 - JavaScript Events & Forms</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>Our goal here was to mimic what we did in lab 7 and turn it into an input box. We also used jQuery and included an anagram sorter.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>I think the main problem for me was just not knowing what to start with. Thanks to Nicole, I figured out that we were supposed to reuse
+						the functions from lab 7 to create another sorting system. I wanted to combine the functions I created into one singular function and 
+						used ChatGPT to easily do that. To be more specific, I inserted my code into the prompt for ChatGPT using ``` and asked the A.I. to
+						convert it. Surprisingly, the resulting code worked miraculously. Furthermore, I struggled a bit with how to get started on the anagram 
+						sorter. I took a look at Nicole's code and realized that it used the Fisher-Yates shuffle method to shuffle the name into random order.
+						Afterwards, I would essentially do what I did in my other sorter to space and capitalize the name and was able to create crisp-clean
+						functions.
+					</p>
+					<p>Other things I struggled with in this assignment was getting the input box to print only one output and if there was no input, not print
+						at all. I tried using a for loop so that the button considers whether or not there are any strings in the input. If there are no strings,
+						it would ask you to input a name in the console log. For printing only one output, I once again consulted ChatGPT and found that I could
+						initalize a checker to see if content has already been appended. I fixed that into the code I already made for the button and tested it out.
+						I was very happy to see it working as intended.
+					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output">
-                        <input  type="text" id="user-name" placeholder="Put your name here...">
-                        <button id="submit">Submit</button>
-                    </div>
+					<P>For this lab, I created two input fields that did different effects.</P>
+					<p class="sorter"><b>Alphabetical Name Sorter:</b><br>
+						<input  type="text" id="user-name" placeholder="Type your name here...">
+                   		<button id="submit">Submit</button>
+					</p>
+					<p class="sorter"><b>Anagram Name Sorter:</b><br>
+						<input type="text" id="anagram-user-name" placeholder="Type your name here...">
+						<button id="anagram-submit">Submit</button>
+					</p>
+					<div id="output"></div>
 			</div>
 		</section>
 		<nav id="links" class="minor-section">
