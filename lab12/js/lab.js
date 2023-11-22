@@ -116,12 +116,35 @@ $("#button").click(function () {
     outputArea.html(newText);
     // Removes class, hide, from output div
     outputArea.removeClass("hide")
-    // Removes class, hide, from tail div
-    $("#tail").removeClass("hide")
+    // Create a conditional for changing the appearance of webpage depending on what house you get
+    if (houseObj.house === houses[0].house) {
+        $("body").addClass("gryffindorBody");
+        // Checks if there are other classes in the body;
+        if ($("body").hasClass("hufflepuffBody") || $("body").hasClass("ravenclawBody") || $("body").hasClass("slytherinBody")) {
+            $("body").removeClass("hufflepuffBody ravenclawBody slytherinBody");
+        }
+    } else if (houseObj.house === houses[1].house) {
+        $("body").addClass("hufflepuffBody");
+        // Checks if there are other classes in the body;
+        if ($("body").hasClass("gryffindorBody") || $("body").hasClass("ravenclawBody") || $("body").hasClass("slytherinBody")) {
+            $("body").removeClass("gryffindorBody ravenclawBody slytherinBody");
+        }
+    } else if (houseObj.house === houses[2].house) {
+        $("body").addClass("ravenclawBody");
+        // Checks if there are other classes in the body;
+        if ($("body").hasClass("hufflepuffBody") || $("body").hasClass("gryffindorBody") || $("body").hasClass("slytherinBody")) {
+            $("body").removeClass("hufflepuffBody gryffindorBody slytherinBody");
+        }
+    } else {
+        $("body").addClass("slytherinBody");
+        // Checks if there are other classes in the body;
+        if ($("body").hasClass("hufflepuffBody") || $("body").hasClass("ravenclawBody") || $("body").hasClass("gryffindorBody")) {
+            $("body").removeClass("hufflepuffBody ravenclawBody gryffindorBody");
+        }
+    }
 });
 
 // When mouse clicks the input field again, it hides the output and tail, allowing for reentry.
 $("#input").focus(function () {
     $("#output").addClass("hide")
-    $("#tail").addClass("hide")
 });

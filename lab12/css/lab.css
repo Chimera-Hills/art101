@@ -138,6 +138,7 @@ img {
     visibility: hidden;
 }
 
+/* Changes the heading in the text bubble into different colors depending on house */
 #gryffindor {
     color: #ae0001;
     -webkit-text-stroke: 1px #eeba30;
@@ -156,4 +157,184 @@ img {
 #slytherin {
     color: #2a623d;
     -webkit-text-stroke: 1px #aaaaaa;
+}
+
+body {
+    transition: background-color 2.5s ease;
+}
+
+/* Gryffindor */
+body.gryffindorBody {
+    background-color: #740001;
+}
+
+body.gryffindorBody h1 {
+    transition: color 2.5s ease;
+    color: #eeba30;
+}
+body.gryffindorBody #content section .minor-section h2,
+body.gryffindorBody #content nav.minor-section h2,
+body.gryffindorBody #content nav.minor-section h3 {
+    transition: color 2.5s ease;
+    color: #70309E;
+}
+
+body.gryffindorBody #content,
+body.gryffindorBody #content section .minor-section,
+body.gryffindorBody #content nav.minor-section {
+    transition: background-color 2.5s ease, border-color 1s ease;
+}
+
+body.gryffindorBody #content,
+body.gryffindorBody #content section .minor-section {
+    background-color: #ae0001;
+    border: solid 2px #d3a625;
+}
+
+body.gryffindorBody #content section .minor-section,
+body.gryffindorBody #content nav.minor-section {
+    background-color: #d3a625;
+    border: solid 2px #eeba30;
+}
+
+body.gryffindorBody #content section .minor-section p {
+    transition: color 2.5s ease;
+    color: #5A138D;
+}
+
+body.gryffindorBody #content nav.minor-section a {
+    transition: color 2.5s ease;
+    color: #ae0001;
+}
+
+/* Hufflepuff */
+body.hufflepuffBody {
+    background-color: #372e29;
+}
+
+body.hufflepuffBody h1 {
+    transition: color 2.5s ease;
+    color: #f0c75e;
+}
+body.hufflepuffBody #content section .minor-section h2,
+body.hufflepuffBody #content nav.minor-section h2,
+body.hufflepuffBody #content nav.minor-section h3 {
+    transition: color 2.5s ease;
+    color: #372e29;
+}
+
+body.hufflepuffBody #content,
+body.hufflepuffBody #content section .minor-section,
+body.hufflepuffBody #content nav.minor-section {
+    transition: background-color 2.5s ease, border-color 1s ease;
+}
+
+body.hufflepuffBody #content,
+body.hufflepuffBody #content section .minor-section {
+    background-color: #726255;
+    border: solid 2px #ecb939;
+}
+
+body.hufflepuffBody #content section .minor-section,
+body.hufflepuffBody #content nav.minor-section {
+    background-color: #ecb939;
+    border: solid 2px #f0c75e;
+}
+
+body.hufflepuffBody #content section .minor-section p {
+    transition: color 2.5s ease;
+    color: #726255;
+}
+
+body.hufflepuffBody #content nav.minor-section a {
+    transition: color 2.5s ease;
+    color: #774CB0;
+}
+
+/* Ravenclaw */
+body.ravenclawBody {
+    background-color: #0e1a40;
+}
+
+body.ravenclawBody h1 {
+    transition: color 2.5s ease;
+    color: #f0c75e;
+}
+body.ravenclawBody #content section .minor-section h2,
+body.ravenclawBody #content nav.minor-section h2,
+body.ravenclawBody #content nav.minor-section h3 {
+    transition: color 2.5s ease;
+    color: #1c3483;
+}
+
+body.ravenclawBody #content,
+body.ravenclawBody #content section .minor-section,
+body.ravenclawBody #content nav.minor-section {
+    transition: background-color 2.5s ease, border-color 1s ease;
+}
+
+body.ravenclawBody #content,
+body.ravenclawBody #content section .minor-section {
+    background-color: #222f5b;
+    border: solid 2px #946b2d;
+}
+
+body.ravenclawBody #content section .minor-section,
+body.ravenclawBody #content nav.minor-section {
+    background-color: #cfa32a;
+    border: solid 2px #946b2d;
+}
+
+body.ravenclawBody #content section .minor-section p {
+    transition: color 2.5s ease;
+    color: #283d80;
+}
+
+body.ravenclawBody #content nav.minor-section a {
+    transition: color 2.5s ease;
+    color: #946b2d;
+}
+
+/* Slytherin */
+body.slytherinBody {
+    background-color: #1a472a;
+}
+
+body.slytherinBody h1 {
+    transition: color 2.5s ease;
+    color: #aaaaaa;
+}
+body.slytherinBody #content section .minor-section h2,
+body.slytherinBody #content nav.minor-section h2,
+body.slytherinBody #content nav.minor-section h3 {
+    transition: color 2.5s ease;
+    color: white;
+}
+
+body.slytherinBody #content,
+body.slytherinBody #content section .minor-section,
+body.slytherinBody #content nav.minor-section {
+    transition: background-color 2.5s ease, border-color 1s ease;
+}
+
+body.slytherinBody #content,
+body.slytherinBody #content section .minor-section {
+    background-color: #2a623d;
+    border: solid 2px #aaaaaa;
+}
+
+body.slytherinBody #content section .minor-section,
+body.slytherinBody #content nav.minor-section {
+    background-color: #5d5d5d;
+    border: solid 2px #aaaaaa;
+}
+
+body.slytherinBody #content section .minor-section p {
+    transition: color 2.5s ease;
+    color: whitesmoke;
+}
+
+body.slytherinBody #content nav.minor-section a {
+    transition: color 2.5s ease;
+    color: #5d9971;
 }
