@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 6 - Arrays & Objects</title>
+	<title>Lab 12 - Conditionals</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -15,7 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 	
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
-	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
@@ -23,40 +23,27 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 6 - Arrays & Objects</h1>
+			<h1>Lab 12 - Conditionals</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>For this assignment, we are learning how to use arrays and objects along with inserting functions and other various sort of data types into objects.</p>
+					<p>Create a sorting hat function that sorts you into houses by using conditionals.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>In this lab, I ran into way more problems than the previous one. For one, the first mistake was putting curly brackets instead of square brackets when 
-						making an array for myTransport. Of course, it was solved rather quickly after re-reading the assignment instructions. Another problem I ran into was 
-						when testing the object I created by having it output elements within it. When I tried outputting the age of the car, it instead sent me the function 
-						I created inside of the brackets. I checked up with my partner, Nicole, who had already troubleshooted the problem. Apparently you were supposed to put 
-						open and closed parentheses after the command and that would make it so that the function would actually function. I was perplexed as to how and why it
-						worked that way but ultimately gave up on finding an answer (as I had already solved the problem anyways). Furthermore, I also ran into some trouble with
-						outputting the array and object in console.log(""). The way I troubleshooted this issue was by inserting the necessary spacing between each index within 
-						the array and separating the object by calling each of its components out along with some spacing made with strings. I was able to achieve what I desired
-						but the coding behind it left me feeling sort of troubled as it looked very complicated and cumbersome for such a simple output. 
-					</p>
+					<p>What problems arose? How did you solve them?</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-						<h3>Script Output</h3>
-							<div id="output">
-								<script type="text/javascript" src="js/lab.js"></script>
-								<img id="cadillac" src="img/Cadillac.jpeg" /><br>
-							</div>
+					<div id="output"></div>
 			</div>
 		</section>
-		<nav id="links"class="minor-section">
+		<nav id="links" class="minor-section">
 			<h2>Labs</h2>
 			<ul>
-				<li>
-					<a href="../index.html" target="_blank">
+                <li>
+					<a href="../index.html" target="_self">
 					Homepage
 					</a>
 				</li>
@@ -81,6 +68,11 @@
 					</a>
 				</li>
 				<li>
+					<a href="../lab6/index.html" target="_blank">
+					Lab 6: Arrays & Objects
+					</a>
+				</li>
+				<li>
 					<a href="../lab7/index.html" target="_blank">
 					Lab 7: Functions
 					</a>
@@ -90,24 +82,27 @@
 					Lab 8: Anon Functions & Callbacks
 					</a>
 				</li>
-				<li>
+                <li>
 					<a href="../lab9/index.html" target="_blank">
 					Lab 9: Libraries & jQuery
 					</a>
 				</li>
-				<li>
+                <li>
 					<a href="../lab10/index.html" target="_blank">
                         Lab 10: JavaScript for the Web
 					</a>
 				</li>
-				<li>
+                <li>
 					<a href="../lab11/index.html" target="_blank">
                         Lab 11: JavaScript Events & Forms
 					</a>
 				</li>
+			</ul>
+			<h3>Link to JavaScript Page</h3>
+			<ul>
 				<li>
-					<a href="../lab12/index.html" target="_blank">
-                        Lab 12: Conditionals
+					<a href="js/lab.js" target="_blank">
+						JS Source
 					</a>
 				</li>
 			</ul>
