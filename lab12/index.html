@@ -13,11 +13,16 @@
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<!-- Linking fonts to my page -->
+	<link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+	<link href="https://fonts.cdnfonts.com/css/stroke" rel="stylesheet">
+	<link href="https://fonts.cdnfonts.com/css/harry-potter-and-the-dingbats" rel="stylesheet">
+	<link href="https://fonts.cdnfonts.com/css/regencie" rel="stylesheet">
 	
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>,
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
@@ -31,12 +36,44 @@
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them?</p>
+					<p>The first thing I knew I wanted to do almost immediately was add a sorting hat like the one from Professor Modes' page, but use one that is animated.
+						I wanted it to align to the right while staying within the borders of the section it was in. Of course I knew right off the bat that I wouldn't know 
+						what I was doing, so I consulted ChatGPT for a solution and found a way to do so by using <i>overflow</i> and <i>float</i>. In CSS, I 
+						added the <i>overflow</i> parameter in the class, <i>minor-section</i>, and set it to hidden. I then encased the sorting hat into <i>span</i> which 
+						allowed me to use the <i>float</i> parameter and align it to the right. It worked the way I wanted it to, but I didn't want to touch it further in
+						case I do something wrong.
+					</p>
+					<p>Another problem I tackled was with adding a gradient to the heading, Sorting Hat. Using ChatGPT, I realized early on that you couldn't add a gradient 
+						to the text, but can add a gradient to the background. I constantly bothered the A.I. program until it gave me a way to do so. Essentially, you can 
+						replicate a gradient by turning the color transparent, create a background image with the gradient effect you desire, and then clipping it into the 
+						bounds of the text. This worked wonders, but because the color is essentially transparent, <i>text-shadow</i> was incompatible as it nullified the 
+						gradient with whatever color you pick for the shadow. I ended up using text stroke instead.
+					</p>
+					<p>The third problem I encountered was using double or single quotes inside of double or single quotes. Because of the nature of coding, where "" and ''
+						are used to create a string rather than in its actual usage, I sort of had a hard time. I figured things out when I, once again, consulted ChatGPT.
+						I was able to learn about a new thing where putting a \ in front of a " or ' takes away the coding format and allows me to use it properly.
+					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"></div>
+					<span class="align-right">
+						<a href="https://view.genial.ly/64f1c5390a274c0018e73f5c/interactive-content-sorting-hat" target="_blank">
+						<img src="img/sorting-hat.gif" alt="Sorting Hat" />
+						</a>
+					</span>
+					<span><h3>Sorting Hat <span>w</span></h3>
+						<p>Come <i>one</i>, come <i>all!</i> Place your name into the box below and get registered into a house at Hogwarts today!</p>
+						<p>
+							<input  type="text" id="input" placeholder="Enter your name here...">
+							<button id="button">Submit</button>
+						</p>
+					</span>
+			</div>
+			
+			<div id="color-box">
+				<div id="output" class="hide"></div>
+				<div id="tail" class="hide"></div>
 			</div>
 		</section>
 		<nav id="links" class="minor-section">

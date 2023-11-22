@@ -7,10 +7,153 @@
     margin-bottom: 10px;
     border: solid 1px #33a784;
     background-color: #A3C9A8;
+    overflow: hidden;
 }
 
 .minor-section p {
     text-indent: 20px;
     margin-left: 10px;
     line-height: 1.5;
+}
+
+.minor-section:nth-child(4) p:nth-child(2) {
+    font-family: 'Stroke', sans-serif;
+    font-size: 125%;
+}
+
+input {
+    background: linear-gradient(to top, #AAD2BA, 15%, white);
+    border: solid 1px #1D1E18;
+    border-radius: 5px;
+    color: #33a784;
+    box-shadow: 2.5px 2.5px 2.5px #62a08d;
+    font-size: 100%;
+    font-family: 'Regencie', sans-serif;
+    font-weight: bold;
+    padding: 4px;
+}
+
+input::placeholder {
+    font-family: 'Regencie', sans-serif;
+    font-size: 90%;
+    color: #AAD2BA;
+}
+
+button {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Regencie', sans-serif;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 0px 0px 2px #6B8F71;
+    border: solid 1px #1D1E18;
+    border-radius: 5px;
+    background-color: #a3dfbb;
+    box-shadow: 2.5px 2.5px 2.5px #62a08d;
+}
+
+.special2 {
+    color: #a3dfbb;
+    text-shadow: 0px 0px 2px #a3b3a5;
+    border: solid 1px #1D1E18;
+    background-color: white;
+}
+
+.special3 {
+    box-shadow: inset 2.5px 2.5px 10px #a3b3a5;
+    text-shadow: 2.5px 2.5px 5px #a3b3a5;
+}
+
+.align-right {
+    float: right;
+}
+
+.minor-section span {
+    text-align: center;
+}
+
+span h3 {
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 500%;
+    font-weight: 400;
+    background-image: linear-gradient(to top, #c3fae7, #e0fdf3, whitesmoke);
+    color: transparent;
+    -webkit-background-clip: text; /* For Safari and older versions of Chrome */
+    background-clip: text;
+    -webkit-text-stroke: 1px #1D1E18;
+    margin-block-end: .25em;
+}
+
+h3 span {
+    font-family: 'Harry Potter and the Dingbats', sans-serif;
+}
+
+img {
+    padding: 5px;
+    margin-right: 50px;
+    margin-top: -100px;
+    max-width: 100%;
+    height: auto;
+}
+
+#color-box {
+    position: relative;
+}
+
+#output {
+    position: absolute;
+    bottom: 250px;
+    right: 450px;
+    padding: 50px;
+    border-radius: 150px;
+    border: solid 1px #1D1E18;
+    background: linear-gradient(to top, #AAD2BA, 15%, white);
+    width: 350px;
+    height: auto;
+    text-align: center;
+}
+
+#output h2 {
+    font-family: 'Harry Potter', sans-serif;
+    font-weight: lighter;
+    font-size: 350%;
+    margin-block-start: .25em;
+    margin-block-end: .25em;
+}
+
+#output p {
+    font-family: 'Stroke', sans-serif;
+    font-size: 150%;
+}
+
+.credits {
+    font-family: 'Regencie', sans-serif;
+    font-size: 60%;
+    color: gray;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+#gryffindor {
+    color: #ae0001;
+    -webkit-text-stroke: 1px #eeba30;
+}
+
+#hufflepuff {
+    color: #f0c75e;
+    -webkit-text-stroke: 1px #372e29;
+}
+
+#ravenclaw {
+    color: #19348d;
+    -webkit-text-stroke: 1px #946b2d;
+}
+
+#slytherin {
+    color: #2a623d;
+    -webkit-text-stroke: 1px #aaaaaa;
 }
