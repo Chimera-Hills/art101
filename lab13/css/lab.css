@@ -1,0 +1,116 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #33a784;
+    background-color: #A3C9A8;
+    overflow: hidden;
+}
+
+.minor-section p {
+    text-indent: 20px;
+    margin-left: 10px;
+    line-height: 1.5;
+}
+
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background: linear-gradient(to top, #AAD2BA, 15%, white);
+    border: solid 1px #1D1E18;
+    border-radius: 5px;
+    color: #33a784;
+    box-shadow: 2.5px 2.5px 2.5px #62a08d;
+    font-family: 'Justy Three', sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+#input {
+    padding: 25px;
+}
+
+#input input#max {
+    width: 7.5%;
+}
+
+#input input::placeholder {
+    font-family: 'Justy Three', sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    color: #89bb9e;
+}
+
+#input table {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#input th {
+    font-family: 'Justy Three', sans-serif;
+    font-size: 125%;
+}
+
+#output {
+    font-family: 'Justy Three', sans-serif;
+    font-size: 200%;
+}
+
+.col {
+    column-width: 200px;
+}
+
+#error {
+    text-align: center;
+    font-weight: bolder;
+    color: #33a784;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Justy Three', sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    padding: 5px;
+    color: white;
+    text-shadow: 0px 0px 2px #6B8F71;
+    border: solid 1px #1D1E18;
+    border-radius: 5px;
+    background-color: #a3dfbb;
+    box-shadow: 2.5px 2.5px 2.5px #62a08d;
+}
+
+/* Changes appearance of button when mouse hovers over it */
+.buttonHover {
+    text-shadow: 1px 1px 2px #457B9D;
+    transform: scale(1.2);
+}
+
+/* Simulates pressing the button */
+.buttonClick {
+    color: #a3dfbb;
+    background-color: white;
+    border: solid 1px white;
+    box-shadow: inset 0px 0px 10px #62a08d;
+    transform: scale(1);
+}
+
+.special2 {
+    color: #a3dfbb;
+    text-shadow: 0px 0px 2px #a3b3a5;
+    border: solid 1px #1D1E18;
+    background-color: white;
+}
+
+.special3 {
+    box-shadow: inset 2.5px 2.5px 10px #a3b3a5;
+    text-shadow: 2.5px 2.5px 5px #a3b3a5;
+}
