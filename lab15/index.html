@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 13 - Loops</title>
+	<title>Lab 15 - AJAX</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -13,8 +13,6 @@
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
-	<!-- Fonts list -->
-	<link href="https://fonts.cdnfonts.com/css/justy-three" rel="stylesheet">
 	
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
@@ -25,60 +23,24 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 13 - Loops</h1>
+			<h1>Lab 15 - AJAX</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>With your partner, create a for loop that prints out words depending on the factors you input.</p>
+					<p>Restate the challenge of the lab here.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>For this lab, I encountered many problems. It mainly had to do with the fact that I was rushing to complete it. I made a lot of typos and used incorrect
-						values and had to debug things using ChatGPT (very convenient for debugging because it examines your code and breaks down where and what parts I did wrong).
-						Furthermore, I also struggled with making it so that the output changes depending on if you change your maximum value. I only realized afterward what was going
-						wrong by reviewing Nicole's code: I needed to make it so that the output from the function, fizzBuzz, would change the html first before appending the other 
-						numbers. I think my brain just sort of turned into mush for this assignment because I was so preoccupied with the project prototype.
-					</p>
+					<p>What problems arose? How did you solve them? </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<p>Here, I created a code that prints select words depending on the factors you picked and within the range you chose. Feel free to experiment.</p>
-					<div id="input">
-						<input type="number" id="max" min="1" max="1000" placeholder="Pick your max value...">
-						<table>
-							<thead>
-								<tr>
-									<th>Pick your factors</th>
-									<th>Pick your words</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td><input type="number" id="num0" min="2" max="100" placeholder="#"></td>
-									<td><input type="text" id="text0" placeholder="..."></td>
-								</tr>
-								<tr>
-									<td><input type="number" id="num1" min="2" max="100" placeholder="#"></td>
-									<td><input type="text" id="text1" placeholder="..."></td>
-								</tr>
-								<tr>
-									<td><input type="number" id="num2" min="2" max="100" placeholder="#"></td>
-									<td><input type="text" id="text2" placeholder="..."></td>
-								</tr>
-								<tr>
-									<td><input type="number" id="num3" min="2" max="100" placeholder="#"></td>
-									<td><input type="text" id="text3" placeholder="..."></td>
-								</tr>
-							</tbody>
-						</table>
-						<button id="submit">Submit</button>
-					</div>
 					<div id="output"></div>
 			</div>
 		</section>
 		<nav id="links" class="minor-section">
-			<h2>Labs</h2>
+            <h2>Labs</h2>
 			<ul>
                 <li>
 					<a href="../index.html" target="_self">
@@ -140,14 +102,14 @@
                         Lab 12: Conditionals
 					</a>
 				</li>
-				<li>
+                <li>
+                    <a href="../lab13/index.html" target="_blank">
+                        Lab 13: Loops
+                    </a>
+                </li>
+                <li>
 					<a href="../lab14/index.html" target="_blank">
                         Lab 14: Debugging Tools & Strategies
-					</a>
-				</li>
-				<li>
-					<a href="../lab15/index.html" target="_blank">
-                        Lab 15: AJAX
 					</a>
 				</li>
 			</ul>
