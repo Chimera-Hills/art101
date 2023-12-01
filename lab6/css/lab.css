@@ -15,12 +15,20 @@
 }
 
 #output {
-  padding: 10px;
   margin-bottom: 10px;
   line-height: 1.5;
 }
 
+#output p {
+  text-indent: initial;
+}
+
+#output ul {
+  list-style: none;
+}
+
 #cadillac {
+  margin-left: 10px;
   width: 500px;
   height: auto;
   border: solid 1px #078686;

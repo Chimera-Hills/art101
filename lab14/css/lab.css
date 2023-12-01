@@ -15,3 +15,14 @@
     margin-left: 10px;
     line-height: 1.5;
 }
+
+.minor-section p:nth-child(3) {
+    text-indent: initial;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: solid 1px #33a784;
+}
