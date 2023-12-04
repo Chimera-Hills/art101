@@ -48,6 +48,8 @@
     width: 7.5%;
     height: auto;
     margin-bottom: 10px;
+    user-select: none;
+    filter: drop-shadow(1px 1px 3px #62a08d);
 }
 
 #output p {
@@ -55,6 +57,7 @@
     font-family: 'Handwriting', sans-serif;
     font-size: 1.5em;
     margin-block-start: 0px;
+    user-select: auto;
 }
 
 #error {
@@ -69,26 +72,28 @@ button {
     font-family: 'Cynocel Poster', sans-serif;
     font-weight: lighter;
     font-size: 150%;
-    padding: 10px;
-    color: white;
-    text-shadow: 0px 0px 2px #6B8F71;
-    border: solid 1px #1D1E18;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #2a75bb;
+    text-shadow: 0px 0px 2px #c7a008;
+    border: solid 2px #2a75bb;
     border-radius: 5px;
-    background-color: #a3dfbb;
+    background-color: #ffcb05;
     box-shadow: 2.5px 2.5px 2.5px #62a08d;
 }
 
 /* Changes appearance of button when mouse hovers over it */
 .buttonHover {
-    text-shadow: 1px 1px 2px #457B9D;
+    text-shadow: 1px 1px 2px #c7a008;
     transform: scale(1.2);
 }
 
 /* Simulates pressing the button */
 .buttonClick {
-    color: #a3dfbb;
-    background-color: white;
-    border: solid 1px white;
-    box-shadow: inset 0px 0px 10px #62a08d;
+    color: #ffcb05;
+    background-color: #2a75bb;
+    border: solid 2px #ffcb05;
+    box-shadow: inset 0px 0px 10px #3c5aa6;
     transform: scale(1);
 }
