@@ -1,0 +1,94 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+@import url('https://fonts.cdnfonts.com/css/stroke');       
+@import url('https://fonts.cdnfonts.com/css/cynocel-poster');
+@import url('https://fonts.cdnfonts.com/css/handwriting');
+
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #33a784;
+    background-color: #A3C9A8;
+    overflow: hidden;
+}
+
+.minor-section p {
+    text-indent: 20px;
+    margin-left: 10px;
+    line-height: 1.5;
+}
+
+.minor-section:nth-child(4) {
+    text-align: center;
+}
+
+.minor-section:nth-child(4) h2 {
+    text-align: initial;
+}
+
+.minor-section:nth-child(4) p {
+    text-indent: initial;
+    font-size: 1.25em;
+    font-family: 'Stroke', sans-serif;
+    user-select: none;
+}
+
+#output h3 {
+    font-size: 2em;
+    font-family: 'Stroke', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    margin-block-end: 5px;
+}
+
+#output img {
+    width: 7.5%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#output p {
+    margin-left: initial;
+    font-family: 'Handwriting', sans-serif;
+    font-size: 1.5em;
+    margin-block-start: 0px;
+}
+
+#error {
+    color: #33a784;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-family: 'Cynocel Poster', sans-serif;
+    font-weight: lighter;
+    font-size: 150%;
+    padding: 10px;
+    color: white;
+    text-shadow: 0px 0px 2px #6B8F71;
+    border: solid 1px #1D1E18;
+    border-radius: 5px;
+    background-color: #a3dfbb;
+    box-shadow: 2.5px 2.5px 2.5px #62a08d;
+}
+
+/* Changes appearance of button when mouse hovers over it */
+.buttonHover {
+    text-shadow: 1px 1px 2px #457B9D;
+    transform: scale(1.2);
+}
+
+/* Simulates pressing the button */
+.buttonClick {
+    color: #a3dfbb;
+    background-color: white;
+    border: solid 1px white;
+    box-shadow: inset 0px 0px 10px #62a08d;
+    transform: scale(1);
+}

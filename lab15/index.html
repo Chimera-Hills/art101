@@ -26,16 +26,29 @@
 			<h1>Lab 15 - AJAX</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>Our goal for this lab is to experiment with AJAX and learn more about how it works.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>One of the first things I struggled with in this assignment is with selecting an attribute/element inside an object that is inside an object. I had trouble 
+						understanding the way you would format it. I, at first, assumed that it would be something like object[object.attribute], but was thus proven wrong when I 
+						got an error message in the console log. I tried again, this time with object.object.attribute and miraculously worked. The funniest thing is that this was 
+						the first syntax/formatting method I thought of, because in the chain of things, it sort of made sense. However, I had scraped the idea because the syntax 
+						also just looked uncomfortable and I assumed that it wouldn't work.
+					</p>
+					<p>Another problem I encountered was with images. Basically, the API I was using had image URLS and I wanted to incorporate those images into my output. I had only 
+						known how to pull images from my repository/document so this was new to me. I consulted ChatGPT on how to do this and found that I could do this with AJAX and 
+						APIs. Essentially, I made it so that the source of the image would be the image URL. I struggled getting the image to actually appear for a bit, until I realized 
+						that I needed to put it in this: ${} to get it to work.
+					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
+					<p>Welcome to our lab! Here, you can get <i>any</i> Pokémon to be your starter. We will provide you with a little information about your new partner!
+				</p>
+					<button id="activate">Get a <b>Starter Pokémon!</b></button>
 					<div id="output"></div>
 			</div>
 		</section>
@@ -107,11 +120,6 @@
                         Lab 13: Loops
                     </a>
                 </li>
-                <li>
-					<a href="../lab14/index.html" target="_blank">
-                        Lab 14: Debugging Tools & Strategies
-					</a>
-				</li>
 			</ul>
 			<h3>Link to JavaScript Page</h3>
 			<ul>
