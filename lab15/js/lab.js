@@ -1,5 +1,5 @@
 /*
-lab.js - This JavaScript/jQuery script uses for loops to print out certain phrases depending on its factors.
+lab.js - This JavaScript/jQuery script uses AJAX to get pokemon.
 Author: Kevin Hong
 Date: 3 December, 2023
 */
