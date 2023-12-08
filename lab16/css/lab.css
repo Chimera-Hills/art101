@@ -15,3 +15,71 @@
     margin-left: 10px;
     line-height: 1.5;
 }
+
+.minor-section:nth-child(4) {
+    text-align: center;
+}
+
+.minor-section:nth-child(4) h1 {
+    letter-spacing: initial;
+}
+
+.minor-section:nth-child(4) h2 {
+    text-align: left;
+}
+
+#output {
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    padding: 1%;
+    border-radius: 25px;
+    border: dashed 2px black;
+    margin: 10px;
+    box-shadow: inset 0px 0px 10px #99a4be;
+    user-select: none;
+}
+
+#output img {
+    max-width: 100%;
+}
+
+#error {
+    color: #33a784;
+}
+
+#button.container {
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+
+button {
+    margin: 5px;
+    font-weight: lighter;
+    font-size: 150%;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    text-shadow: 0px 0px 2px #6B8F71;
+    border: solid 1px #1D1E18;
+    border-radius: 5px;
+    background-color: #a3dfbb;
+    box-shadow: 2.5px 2.5px 2.5px #62a08d;
+}
+
+/* Changes appearance of button when mouse hovers over it */
+.buttonHover {
+    text-shadow: 1px 1px 2px #b8cabb;
+    transform: scale(1.2);
+}
+
+/* Simulates pressing the button */
+.buttonClick {
+    color: black;
+    background-color: white;
+    border: dashed 2px black;
+    box-shadow: inset 0px 0px 10px #99a4be;
+    transform: scale(1);
+}

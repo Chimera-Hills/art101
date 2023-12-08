@@ -26,17 +26,32 @@
 			<h1>Lab 16 - JSON & APIs</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>The goal of this assignment is to incorporate comics from <a href="https://xkcd.com/json.html">XKCD</a> into your lab.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>Throughout this assignment, I encountered many problems. The first problem was with getting the output to change when I clicked the random button. It would only 
+						change when I reloaded the page but not when I click the button. I found out later on how dumb I was when I realized that I had initially set up the ENDPOINT with 
+						the random variable function selector. That meant that it would start off with a random number and stay there. I sorted things out by replacing the initial ENDPOINT 
+						with the starting URL and then randomizing a new number and updating the ENDPOINT in the button.
+					</p>
+					<p>Another problem I encountered were with the next and previous buttons. I wanted to do Task X- it all seemed easy enough. You simply take the numerical value that the 
+						object of the API already gave to us and subtract or add it by 1. Funny thing: I ran into a lot of issues. For one, the first time I created the functions, I would get 
+						a buttload of errors that were basically saying they didn't know wtf comicObj.num is. I learned later on that I was supposed to set it up as a variable in the success 
+						function for the AJAX. Furthermore, whenever the number increased past the max number of comics or decreased below 1, the console log would have a seizure. I fixed this 
+						by incorporating if functions that checked if a value was below 1 or higher than the max, and if they were, return to either the starting point or ending point.
+					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
 					<div id="output"></div>
+					<div id="button-container">
+						<button id="previous">Prev</button>
+						<button id="random">Random</button>
+						<button id="next">Next</button>
+					</div>
 			</div>
 		</section>
 		<nav id="links" class="minor-section">
