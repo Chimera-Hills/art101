@@ -27,6 +27,8 @@ $("#random").click(function() {
     // Generate a random ID and update the ENDPOINT
     var ENDPOINT = "https://xkcd.com/" + getRandomInt(0, 2864) + "/info.0.json";
 
+    console.log(ENDPOINT);
+
     // Update the URL in the comicObj
     comicObj.url = ENDPOINT;
 
@@ -47,7 +49,9 @@ $("#previous").click(function() {
     // Update the ENDPOINT with newly subtracted ID/number
     var ENDPOINT = "https://xkcd.com/" + num + "/info.0.json"; 
 
-     // Update the URL in the comicObj
+    console.log(ENDPOINT);
+
+    // Update the URL in the comicObj
     comicObj.url = ENDPOINT;
 
     // Call the AJAX request
@@ -66,6 +70,8 @@ $("#next").click(function() {
 
     // Update the ENDPOINT with newly incremented ID/number
     var ENDPOINT = "https://xkcd.com/" + num + "/info.0.json";
+
+    console.log(ENDPOINT);
 
     // Update the URL in the comicObj
     comicObj.url = ENDPOINT;
